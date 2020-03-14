@@ -1,5 +1,7 @@
 package ua.epam.springAOP.model;
 
+import javax.persistence.*;
+
 @Entity
 @Table(name="accounts")
 public class Account {
